@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(120deg, #fec395, #6ac8d2);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+li, a, button {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10% 0;
+    background-color: rgba(96, 170, 255, 0.959);
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    margin-inline: 20px;
+    padding: 10px ;
+    justify-content: center;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #2691d9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: transparent;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: 3px solid rgba(67,197,158,0.8);
+}
+
+button:hover {
+    background-color: rgba(67,197,158,0.8);
+    color: #000;
+}
+
+.cadastro {
+    padding: 0;
+    margin: 0px;
+}
+
+.cadastro a{
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 0%;
+}
+
+.cadastro a:hover{
+    color: #2691d9;
+    transition: all 0.3s ease 0s;
+}
+
+/* VIDEO */
+.bloco-video{
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+   }
+  .txt-video{
+    z-index: 1;
+    text-align: center;
+    width: 800px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+  .titulo-video {
+    font-size:80px;
+    line-height: 104px;
+    letter-spacing: 2px;
+    color: #cdffec;
+  }
+  .subtitulo-video {
+    font-size:56px;
+    line-height: 72px;
+    letter-spacing: 1px;
+  }
+  .video-container {
+    position: absolute;
+    top: 30;
+    left: 0;
+    width: 100%;
+  }
+  .color-overlay {
+    position: absolute;
+    top: 30;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity: 0.8;
+  }
+
+  /* blog */
+  .bloco-centralizado-cta{
+    align-items: center;
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-right: 144px;
+    padding-left: 144px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgba(96, 170, 255, 0.959);
+  }
+  .cta-secundario{
+    color: #000;
+  }
+  .cta-secundario:hover{
+    color: #f5fffb;
+  }
+  .titulo-centro{
+    font-size:40px;
+    font-weight: bold;
+    line-height: 64px;
+  }
+  .texto-centro{
+    font-size:18px;
+    line-height: 40px;
+  }
+
+  /* 2º BLOCO */
+  .bloco-objetivos-profissionais{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fec395;
+    padding-bottom: 104px;
+    padding-top: 104px;
+    padding-right: 144px;
+    padding-left: 144px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .foto-esquerda{
+    display: block;
+    position: relative;
+    float: left;
+  }
+  .txt-direita{
+    display: block;
+    position: relative;
+    float: right;
+    padding-left: 144px;
+  }
+
+  /* 3º BLOCO */
+  .bloco-contato{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5fffb;
+    padding-bottom: 104px;
+    padding-top: 104px;
+    padding-right: 144px;
+    padding-left: 144px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .titulo-formulario{
+    font-size: 40px;
+    margin-bottom: 48px;
+    margin-top: 250px;
+  }
+  .form-label{
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  .form-input{
+    transition: 0.3s;
+    border-radius: 50px;
+    margin-bottom: 24px;
+    width: 300px;
+    height: 48px;
+    margin-top: 10px;
+  }
+  .form-input-mensagem{
+    border-radius: 8px;
+    margin-bottom: 24px;
+    width: 400px;
+    height: 200px;
+  }
+  .form-input:focus{
+    border-bottom: 4px solid #2691d9;
+    transition: 0.3s;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    width: 300px;
+    height: 48px;
+  }
+  .img-form{
+    margin-right: 80px;
+  }
+  .botao-form{
+    background-color: black;
+    color: #cdffec;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 40px;
+  }
+  .botao-form:hover{
+    background-color: #2691d9;
+    color: #f5fffb;
+    transition: 0.3s;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /* FOOTER */ 
+  footer{
+    color: #cdffec;  
+    background-color: #2691d9;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-fluid{
+    text-decoration:none;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  .col-sm-4{
+    text-decoration:none;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .col-sm-4 li, ul{
+    display: flex;
+    margin-left: 5%;
+  }
+  .nav-rodape {
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+  } 
+  .nav-rodape a{
+    margin-right: 40px;
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+  } 
+  .nav-rodape a:hover{
+    margin-right: 40px;
+    text-align: left;
+    text-decoration: underline;
+    list-style-type: none;
+    color: white;
+  } 
+  
